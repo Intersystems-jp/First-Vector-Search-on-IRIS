@@ -8,7 +8,7 @@ This has only one IRIS class "Usre.nakav.cls". You will see how vector search wo
 
 # How to run
 
-(1) Import **nakav.cls** into any namespace.
+(1) Import **"nakav.cls"** into any namespace.
 
 (2) Install the python library "SentenceTransformer" on IRIS server as below:
 
