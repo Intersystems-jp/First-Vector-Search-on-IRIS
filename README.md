@@ -3,7 +3,7 @@ Play Vector Search with only one IRIS class file.
 
 # Description:
 If you've not tried vector search on IRIS, this sample code will encourage you to do it!
-This has only one IRIS class "Usre.nakav.cls". You will see how vector search works and how you can use only with this.
+This has only one IRIS class "Usre.nakav.cls". You will see how vector search works and how you can use it only with this class.
 
 
 # How to run
