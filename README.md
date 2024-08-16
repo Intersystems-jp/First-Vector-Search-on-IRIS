@@ -10,7 +10,7 @@ This has only one IRIS class "Usre.nakav.cls". You will see how vector search wo
 
 (1) Import **"nakav.cls"** into any namespace.
 
-(2) Install the python library "SentenceTransformer" on IRIS server as below:
+(2) Install the python library "sentence_transformers" on IRIS server as below:
 
 * Windows:
   
