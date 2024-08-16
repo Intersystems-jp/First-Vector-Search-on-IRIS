@@ -29,15 +29,15 @@ Please note "Embedd" method will convert a given string to the vector value with
 
 `SELECT ID, feedback from nakav`
 
-![Search result](https://github.com/seisuke24am/First-Vector-Search-on-IRIS/blob/main/table1a.png?raw=true)
+![Search result](https://github.com/Intersystems-jp/First-Vector-Search-on-IRIS/blob/main/table1a.png?raw=true)
   
 `SELECT ID, feedback, feedbackv from nakav `
 
-![Search result](https://github.com/seisuke24am/First-Vector-Search-on-IRIS/blob/main/table2a.png?raw=true)
+![Search result](https://github.com/Intersystems-jp/First-Vector-Search-on-IRIS/blob/main/table2a.png?raw=true)
 
 
 (4) Run "search" method. This will check which feedback sentence is the closet to the given question "**better feedback**" with comparing **vector value in each row**.
 
 `SELECT ID, feedback FROM nakav ORDER BY VECTOR_DOT_PRODUCT(feedbackv, TO_VECTOR(questionv, DOUBLE, 384)) `
 
-![Search result](https://github.com/seisuke24am/First-Vector-Search-on-IRIS/blob/main/search.png?raw=true)
+![Search result](https://github.com/Intersystems-jp/First-Vector-Search-on-IRIS/blob/main/search.png?raw=true)
